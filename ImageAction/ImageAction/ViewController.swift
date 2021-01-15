@@ -15,7 +15,7 @@ extension Collection {
 
 class ViewController: UIViewController {
     
-    let words = ["palavra, Indiana Jones", "lavar", "comer", "averiguar", "Kelvis Duran", "viola", "chupeta", "gato", "sitio", "manga fresca", "barbie", "churrasco", "queijo do reino", "cocada", "bicicleta", "carro", "sol", "chuva", "rua", "chinelo", "guarda-chuva", "guarda sol", "peixe", "carne", "garrafa", "calabresa", "pizza", "sapato", "pneu", "lixo", "amor", "mito", "tapete", "tapioca", "Nego do Borel", "Frozen", "alegria", "levantar", "suportar", "aborrecer", "plantar", "regar", "atualizar", "queimar", "vender", "guardar", "guarda municipal", "contadora", "programador", "pai", "tio", "urso"]
+    let words = ["palavra", "Indiana Jones", "lavar", "comer", "averiguar", "Kelvis Duran", "viola", "chupeta", "gato", "sitio", "manga fresca", "barbie", "churrasco", "queijo do reino", "cocada", "bicicleta", "carro", "sol", "chuva", "rua", "chinelo", "guarda-chuva", "guarda sol", "peixe", "carne", "garrafa", "calabresa", "pizza", "sapato", "pneu", "lixo", "amor", "mito", "tapete", "tapioca", "Nego do Borel", "Frozen", "alegria", "levantar", "suportar", "aborrecer", "plantar", "regar", "atualizar", "queimar", "vender", "guardar", "guarda municipal", "contadora", "programador", "pai", "tio", "urso"]
     
     @IBOutlet weak var descriptionTextView: UILabel!
 
