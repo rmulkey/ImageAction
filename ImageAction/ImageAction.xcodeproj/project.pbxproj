@@ -17,6 +17,10 @@
 		0D209E3625AE432E002966A6 /* ImageActionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D209E3525AE432E002966A6 /* ImageActionUITests.swift */; };
 		0D24BBE625B1B42D00B36E1D /* dogs-4688586_1920.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D24BBE525B1B42D00B36E1D /* dogs-4688586_1920.jpg */; };
 		0D24BBEB25B1B52D00B36E1D /* 2play1game-Pictionary.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D24BBEA25B1B52D00B36E1D /* 2play1game-Pictionary.png */; };
+		0D506CCE25B1C6AD00CE32E0 /* ThanksgivingGratitudePictionary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D506CCB25B1C6AC00CE32E0 /* ThanksgivingGratitudePictionary.jpg */; };
+		0D506CCF25B1C6AD00CE32E0 /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D506CCC25B1C6AD00CE32E0 /* unnamed.png */; };
+		0D506CD025B1C6AD00CE32E0 /* bfcec6fac408715fa9ae52bdf5ae83b8.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D506CCD25B1C6AD00CE32E0 /* bfcec6fac408715fa9ae52bdf5ae83b8.png */; };
+		0D506CE525B2207B00CE32E0 /* mimica3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D506CE025B2207A00CE32E0 /* mimica3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		0D209E3725AE432E002966A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D24BBE525B1B42D00B36E1D /* dogs-4688586_1920.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dogs-4688586_1920.jpg"; sourceTree = "<group>"; };
 		0D24BBEA25B1B52D00B36E1D /* 2play1game-Pictionary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2play1game-Pictionary.png"; sourceTree = "<group>"; };
+		0D506CCB25B1C6AC00CE32E0 /* ThanksgivingGratitudePictionary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ThanksgivingGratitudePictionary.jpg; sourceTree = "<group>"; };
+		0D506CCC25B1C6AD00CE32E0 /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed.png; sourceTree = "<group>"; };
+		0D506CCD25B1C6AD00CE32E0 /* bfcec6fac408715fa9ae52bdf5ae83b8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bfcec6fac408715fa9ae52bdf5ae83b8.png; sourceTree = "<group>"; };
+		0D506CE025B2207A00CE32E0 /* mimica3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mimica3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +118,7 @@
 				0D209E1C25AE432E002966A6 /* Assets.xcassets */,
 				0D209E1E25AE432E002966A6 /* LaunchScreen.storyboard */,
 				0D209E2125AE432E002966A6 /* Info.plist */,
-				0D24BBE525B1B42D00B36E1D /* dogs-4688586_1920.jpg */,
-				0D24BBEA25B1B52D00B36E1D /* 2play1game-Pictionary.png */,
+				0D506CD425B1C6B700CE32E0 /* Assets */,
 			);
 			path = ImageAction;
 			sourceTree = "<group>";
@@ -132,6 +139,19 @@
 				0D209E3725AE432E002966A6 /* Info.plist */,
 			);
 			path = ImageActionUITests;
+			sourceTree = "<group>";
+		};
+		0D506CD425B1C6B700CE32E0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0D24BBE525B1B42D00B36E1D /* dogs-4688586_1920.jpg */,
+				0D506CE025B2207A00CE32E0 /* mimica3.jpg */,
+				0D506CCD25B1C6AD00CE32E0 /* bfcec6fac408715fa9ae52bdf5ae83b8.png */,
+				0D506CCB25B1C6AC00CE32E0 /* ThanksgivingGratitudePictionary.jpg */,
+				0D506CCC25B1C6AD00CE32E0 /* unnamed.png */,
+				0D24BBEA25B1B52D00B36E1D /* 2play1game-Pictionary.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,8 +257,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D506CCF25B1C6AD00CE32E0 /* unnamed.png in Resources */,
+				0D506CCE25B1C6AD00CE32E0 /* ThanksgivingGratitudePictionary.jpg in Resources */,
 				0D209E2025AE432E002966A6 /* LaunchScreen.storyboard in Resources */,
 				0D24BBEB25B1B52D00B36E1D /* 2play1game-Pictionary.png in Resources */,
+				0D506CE525B2207B00CE32E0 /* mimica3.jpg in Resources */,
+				0D506CD025B1C6AD00CE32E0 /* bfcec6fac408715fa9ae52bdf5ae83b8.png in Resources */,
 				0D209E1D25AE432E002966A6 /* Assets.xcassets in Resources */,
 				0D24BBE625B1B42D00B36E1D /* dogs-4688586_1920.jpg in Resources */,
 				0D209E1B25AE4324002966A6 /* Main.storyboard in Resources */,
@@ -452,6 +476,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = mulkey.com.ImageAction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -473,6 +498,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = mulkey.com.ImageAction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

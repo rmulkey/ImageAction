@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,37 +15,49 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2play1game-Pictionary.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wef-fa-13i">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2play1game-Pictionary.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wef-fa-13i">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U0e-th-O4W">
-                                <rect key="frame" x="188" y="429" width="170" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Palavra" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PEm-d9-uvc">
+                                <rect key="frame" x="28" y="483" width="373" height="35"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="LnC-XE-36q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U0e-th-O4W">
+                                <rect key="frame" x="134" y="427" width="260" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="26"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Nova Palavra">
-                                    <color key="titleColor" name="AccentColor"/>
-                                    <color key="titleShadowColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" name="AccentColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x9g-Be-718"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Palavra" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PEm-d9-uvc">
-                                <rect key="frame" x="124" y="483" width="290" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="U0e-th-O4W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="134" id="5i5-za-jMg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PEm-d9-uvc" secondAttribute="trailing" constant="13" id="Dht-1H-0EX"/>
+                            <constraint firstItem="Wef-fa-13i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jts-FK-T8w"/>
+                            <constraint firstItem="U0e-th-O4W" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="383" id="NeT-1Y-WQp"/>
+                            <constraint firstItem="U0e-th-O4W" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="TwK-s6-lW3"/>
+                            <constraint firstItem="PEm-d9-uvc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="Vvf-xa-4mR"/>
+                            <constraint firstItem="PEm-d9-uvc" firstAttribute="top" secondItem="U0e-th-O4W" secondAttribute="bottom" constant="12" id="gyt-Rf-tk2"/>
+                            <constraint firstItem="Wef-fa-13i" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lH2-uE-Uuw"/>
+                            <constraint firstItem="Wef-fa-13i" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-44" id="paI-IU-jfV"/>
+                            <constraint firstItem="Wef-fa-13i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yv7-eH-ztP"/>
+                        </constraints>
                     </view>
                     <connections>
+                        <outlet property="backgroundImage" destination="Wef-fa-13i" id="imG-Ww-fDP"/>
                         <outlet property="descriptionTextView" destination="PEm-d9-uvc" id="9fM-g6-gQq"/>
                     </connections>
                 </viewController>
@@ -57,8 +68,5 @@
     </scenes>
     <resources>
         <image name="2play1game-Pictionary.png" width="600" height="600"/>
-        <namedColor name="AccentColor">
-            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
     </resources>
 </document>
